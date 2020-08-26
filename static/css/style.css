@@ -1,0 +1,140 @@
+:root{
+  --primary: #01a3a4;
+  --secondary: #ff9f43;
+  --complementario: #f18218;
+}
+.dropdown-menu .dropdown-item:hover{
+  background: var(--primary)!important;
+  transition: all 500ms ease;
+}
+.text-primary{
+  color: var(--primary)!important;
+}
+button{
+  outline: none!important;
+}
+.btn-primary{
+  background: var(--primary)!important;
+}
+.bg-dark-25{
+  background: rgba(52, 58, 64, .25);
+}
+.bg-primary{
+  background: var(--primary)!important;
+}
+.bg-secondary{
+  background: var(--secondary)!important;
+}
+.btn-facebook{
+  background: #3b5998!important;
+}
+.btn-twitter{
+  background: #1da1f2!important;
+}
+.btn-google-plus{
+  background: #dd4b39!important;
+}
+.btn-linkedin{
+  background: #0077b5!important;
+}
+.bg-comp{
+  background: var(--complementario)!important;
+}
+.dropdown-toggle::after{
+  display: none;
+}
+.dropdown-menu{
+  right: 0!important;
+  left: initial!important;
+}
+.main-banner{
+  background: url('https://demo.w3layouts.com/demos_new/template_demo/08-01-2019/demo_Free/1969077679/web/images/banner.jpg') center no-repeat;
+  min-height: 480px;
+  background-size: cover;
+  background-attachment: center;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+}
+.icon-circle{
+  width: 45px;
+  height: 45px;
+  line-height: 97px;
+  font-size: 20px;
+  border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.icon-border-circle{
+  width: 90px;
+  height: 90px;
+  line-height: 97px;
+  font-size: 40px;
+  color: #01a3a4;
+  border: solid 2px rgb(206, 211, 214);
+  border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  background: transparent;
+}
+
+.w-90{
+  width: 90%;
+}
+max-w-lg{
+  max-widht: 960px!important;
+}
+
+
+/**********************
+ * Estilos font-size *
+ *********************/
+.f-8{
+  font-size: 8px!important;
+}
+.f-9{
+  font-size: 9px!important;
+}
+.f-10{
+  font-size: 10px!important;
+}
+.f-12{
+  font-size: 12px!important;
+}
+.f-14{
+  font-size: 14px!important;
+}
+.f-16{
+  font-size: 16px!important;
+}
+.f-18{
+  font-size: 18px!important;
+}
+.f-20{
+  font-size: 20px!important;
+}
+.f-24{
+  font-size: 24px!important;
+}
+.f-26{
+  font-size: 26px!important;
+}
+.f-28{
+  font-size: 28px!important;
+}
+.f-36{
+  font-size: 36px!important;
+}
+.f-48{
+  font-size: 48px!important;
+}
+
+footer.parallax{
+  background: url('https://demo.w3layouts.com/demos_new/template_demo/08-01-2019/demo_Free/1969077679/web/images/banner.jpg') no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
