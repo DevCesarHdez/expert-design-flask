@@ -138,3 +138,19 @@ footer.parallax{
   background-position: center;
   background-size: cover;
 }
+
+/* Header Pages */
+.banner-pages {
+  background: url(https://demo.w3layouts.com/demos_new/template_demo/08-01-2019/demo_Free/1969077679/web/images/banner.jpg)
+    no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  background-size: cover;
+  position: relative;
+  min-height: 250px;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+    content: "";
+}
